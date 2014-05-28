@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/me_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/head" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="@string/me_jjr_login" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/me_input_edt_bg"
+            android:hint="@string/me_login_phone_hint" />
+
+        <RelativeLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+            <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:background="@drawable/me_input_edt_bg"
+            android:hint="@string/me_login_pwd_hint" />
+            
+            <TextView 
+                android:layout_width="wrap_content"
+           		android:layout_height="wrap_content"
+                android:text="@string/me_login_pwd_find"
+                android:paddingRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                />
+            
+        </RelativeLayout>
+        
+        <Button 
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="@string/me_login_bt_bg"
+            android:background="@drawable/login_bt"
+            />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="10dp"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:paddingBottom="15dp"
+            android:text="@string/me_login_regirst_tx"
+            />
+        
+        <Button 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/me_login_save"
+            android:background="@drawable/login_bottom_1"
+            />
+         <Button 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/me_login_share"
+            android:background="@drawable/login_bottom_2"
+            />
+         <Button 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:gravity="left|center_vertical"
+            android:text="@string/me_login_history"
+            android:background="@drawable/login_bottom_3"
+            />
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

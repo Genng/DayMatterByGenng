@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- When selected, use light -->
+    <item android:color="@color/index_tx"
+          android:state_selected="true" />
+    <!-- When not selected, use gray-->
+    <item android:color="@color/index_tx_2" />
+</selector>

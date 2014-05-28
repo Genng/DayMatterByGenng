@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">丽兹行豪宅</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="head_back">返回</string>
+    <string name="title_activity_tab1">Tab1Activity</string>
+    
+    <string name="tab_item_tx_1">主页</string>
+    
+    <string name="tab_item_tx_2">搜索</string>
+    
+     <string name="tab_item_tx_3">我的</string>
+     
+      <string name="tab_item_tx_4">更多</string>
+    
+    
+      <!-- 我的界面 -->
+
+ 	<string name="me_jjr_login">经纪人登录</string>
+ 	<string name="me_login_phone_hint">请输入手机号</string>
+ 	<string name="me_login_pwd_hint">请输入密码</string>
+ 	
+ 	<string name="me_login_pwd_find">忘记密码</string>
+ 	
+ 	<string name="me_login_bt_bg">登  录</string>
+ 	
+ 	<string name="me_login_regirst_tx">注册</string>
+ 	
+ 	<string name="me_login_save">我的收藏</string>
+ 	<string name="me_login_share">我的分享</string>
+ 	<string name="me_login_history">浏览记录</string>
+ 	
+</resources>
